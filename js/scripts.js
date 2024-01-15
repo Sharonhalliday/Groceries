@@ -12,7 +12,7 @@ $(document).ready(function (){
 
     const items = [foodstuff1Input, foodstuff2Input, foodstuff3Input];
       items = items.sort();
-    
+      const newItems = items.toUpperCase();
 
    
 }); 
