@@ -14,6 +14,7 @@ $(document).ready(function (){
       items = items.sort();
       const newItems = items.toUpperCase();
 
-   
+      $(".container").hide();
+      $("#output").show();
 }); 
 });
