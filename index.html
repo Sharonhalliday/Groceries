@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,10 @@
     <script src="js/scripts.js"></script>
     <title>Groceries</title>
 </head>
+
 <body>
     <div class="container">
-        <form id="form">
+        <form id="myForm">
             <label for="foodstuff1"></label>
             <input type="text" id="foodstuff1">
             <br><br>
@@ -20,13 +22,15 @@
             <br><br>
             <label for="foodstuff3"></label>
             <input type="text" id="foodstuff3">
+            <br> <br>
+            <button type="submit">Submit</button>
         </form>
-        <button type="submit">Submit</button>
     </div>
-    <div id="output">
-        <p><span class="foodstuff1"></span></p>
-        <p><span class="foodstuff2"></span></p>
-        <p><span class="foodstuff3"></span></p>
+    <div id="list">
+        <ul id="output">
+
+        </ul>
     </div>
 </body>
+
 </html>
